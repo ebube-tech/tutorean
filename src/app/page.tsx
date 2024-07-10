@@ -1,7 +1,7 @@
 import Header from "@/components/common/Header";
 
 
-import FeaturedTutors from "@/components/home/FeaturedTutors";
+import FeaturedTutors from "@/components/home/howitwork";
 import HeroSection from "@/components/home/HeroSection";
 import HowItWorks from "@/components/home/HowItWorks";
 
