@@ -11,7 +11,7 @@ function FeaturedTutors() {
         <div className="">
           <Heading text=" Featured Tutors" />
 
-          <div className="flex justify-between flex-wrap">
+          <div className="flex  xl:justify-between   justify-center flex-wrap">
             {Array.from({ length: 8 }).map((_, index) => (
               <div
                 key={index}
@@ -22,9 +22,11 @@ function FeaturedTutors() {
                   width={250}
                   src="/images/tutor.png"
                   alt=""
-                  className=" rounded-[50%] border-[18px] border-[#F77F00]"
+                  className=" 
+                  mx-auto
+                  rounded-[50%] border-[18px] border-[#F77F00]"
                 />
-                <div className="mt-[55px] max-w-[250px] text-center">
+                <div className="mt-[24px] max-w-[250px] text-center mx-auto">
                   <p className="font-[700]">James Adolf</p>
                   <p className="mt-[11px] text-[0.865rem]">
                     <span className="font-[700]">Algebra</span>

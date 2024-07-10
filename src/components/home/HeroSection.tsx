@@ -2,6 +2,7 @@
 import React from "react";
 
 import Container from "@/ui/Container";
+import Heading from "@/ui/Heading";
 
 import ListItems from "./ListItems";
 
@@ -15,14 +16,14 @@ const Stats = [
 function HeroSection() {
   return (
     <Container>
-      <div className="mt-[156px]"></div>
+      <div className="lg:mt-[156px] mt-[80px]"></div>
 
-      <div className="flex lg:flex-row flex-col items-center lg:gap-[219px]">
-        <div>
-          <h1 className="max-w-[690px] font-[700] text-[3.438rem] text-[#F77F00] leading-[66.56px]">
+      <div className="flex lg:flex-row flex-col items-center xl:gap-[219px] gap-[20px]">
+        <div className="mr-[20px]">
+          <h1 className="xl:max-w-[690px] font-[700] text-[3.438rem] text-[#F77F00] leading-[66.56px]">
             Grow one lesson at a time on Tutorean
           </h1>
-          <div className="lg:w-[731px] flex flex-col gap-[13px] flex-none mt-[44px]">
+          <div className="xl:w-[731px] flex flex-col gap-[13px] flex-none mt-[44px]">
             <ListItems text="Personalized 1-on-1 lessons, trusted by millions of learners in Africa" />
             <ListItems
               text="Learn from certified experts who match your budget and schedule.
@@ -49,13 +50,11 @@ function HeroSection() {
         </div>
       </div>
       <div className="mt-[100px]">
-        <p className="text-[3rem] text-[#000] font-[700] text-center leading-[58.09px]">
-          Get Tutored by expert professionals and peers from across the world
-        </p>
+        <Heading text=" Get Tutored by expert professionals and peers from across the world" />
 
-        <div className="mt-[57px] bg-[#F77F00] px-[68px] rounded-[30px] w-[100%] flex h-[121px] items-center justify-between">
+        <div className="mt-[57px] bg-[#F77F00] px-[68px] rounded-[30px] w-[100%] flex flex-col lg:flex-row gap-[30px] py-[20px] lg:h-[121px] items-center justify-between">
           {Stats.map((stats, index) => (
-            <p key={index} className="text-[#fff] text-[1.25rem] font-[700]">
+            <p key={index} className="text-[#fff] lg:text-[1.25rem] font-[700]">
               {stats}
             </p>
           ))}

@@ -1,10 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 function CooperateTraining() {
   return (
-    <div className="px-[28px] pt-[158px]">
-      <div className="h-[670px]  bg-[#5C4033] flex pt-[150px] items-start justify-center rounded-[62px] gap-[84px]">
-        <img src="/images/cooperate-training.png" alt="" />
+    <div className="px-[28px] pt-[158px] pb-[100px]">
+      <div className="lg:h-[670px]  bg-[#5C4033] flex flex-col lg:flex-row px-[20px] py-[40px] gap-[20px] pt-[150px] items-start justify-center rounded-[62px] gap-[84px] ">
+        <img
+          src="/images/cooperate-training.png"
+          alt=""
+          className="w-[100%] lg:w-[auto]"
+        />
 
         <div className="max-w-[800px]">
           <p className="text-[2rem] font-[700] leading-[38.73px] text-[#fff]">

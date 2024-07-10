@@ -15,7 +15,7 @@ function WhyChooseUs() {
             the platform. They share how their individual journeys have been
             transformed by their use of Tutorean{" "}
           </p>
-          <div className="flex justify-between flex-wrap justify-between gap-[20px]">
+          <div className="flex justify-center flex-wrap  gap-[20px]">
             {Array.from({ length: 3 }).map((_, index) => (
               <div
                 key={index}
