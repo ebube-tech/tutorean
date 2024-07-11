@@ -51,7 +51,18 @@ export default function Tutor_Reg_One(){
 
             <div className="py-2">
                 <h1 className="font-bold text-md">Your Qualifications</h1>
-                <p className="text-sm">Tell us your academic background and any certifications you have</p>
+                <p className="text-sm py-2">Tell us your academic background and any certifications you have</p>
+                <form className="bg-white border-2 border-[#F77F00] flex w-[350px] rounded">
+                    <input type="text" className="py-2 px-4 flex-grow" placeholder="Search a Cerification eg Bachelors. "/>
+                    <button className="bg-[#F77F00] text-white px-2">Search</button>
+                </form>
+                <div className="flex flex-wrap gap-2 mt-2">
+                    <button className="border border-[#f77f00] rounded-[30px] py-1 px-3 hover:bg-[#f77f00]">Masters</button>
+                    <button className="border border-[#f77f00] rounded-[30px] py-1 px-3 hover:bg-[#f77f00]">PHD</button>
+                    <button className="border border-[#f77f00] rounded-[30px] py-1 px-3 hover:bg-[#f77f00]">Diploma</button>
+                    <button className="border border-[#f77f00] rounded-[30px] py-1 px-3 hover:bg-[#f77f00]">Bachelor&apos;s</button>
+                    <button className="border border-[#f77f00] rounded-[30px] py-1 px-3 hover:bg-[#f77f00]">Certificate</button>
+                </div>
             </div>
 
             <button className="bg-[#F77F00] text-white py-2 px-4 mt-5 rounded-[30px]">Continue</button>

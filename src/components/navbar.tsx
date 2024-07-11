@@ -1,4 +1,4 @@
-import logo from '../../public/tutorean.png';
+import logo from '../../public/logo.svg';
 import Image from 'next/image';
 
 export default function Navbar(){
