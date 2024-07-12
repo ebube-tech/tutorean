@@ -7,8 +7,8 @@ import twitter from '../../public/twitter.svg';
 
 export default function Tutor_Reg_Congrat(){
     return(
-        <div className="bg-[#FFF3E5] w-[100%] h-[90vh]">
-            <div className="lg:px-[200px] md:px-[70px] p-10">
+        <div className="bg-[#FFF3E5] w-full h-full">
+            <div className="lg:px-[200px] md:px-[70px] p-[15px]">
                 <div className="py-2">
                     <h1 className="font-bold text-3xl text-[#f77f00]">Congratulations,  Jean Stephen! You are all set!</h1>
                     <p className="text-lg">You are officially part of the tutor community.</p>
@@ -20,9 +20,9 @@ export default function Tutor_Reg_Congrat(){
                 </div>
             </div>
 
-            <div className='border-2 border-[#f77f00] m-4 rounded-[30px]'>
-                <div className='flex gap-1 text-xs px-10 py-6 justify-around'>
-                    <div className="h-20 w-20">
+            <div className='border-2 border-[#f77f00] lg:m-4 m-[10px] rounded-[30px]'>
+                <div className='flex flex-wrap lg:gap-1 gap-4 text-xs px-10 py-6 justify-around'>
+                    <div className="h-20 lg:w-20 w-full">
                         <Image src={ logo } className='h-full w-full object-contain' alt="logo"/>
                     </div>
                     <div className='flex flex-col gap-2'>
