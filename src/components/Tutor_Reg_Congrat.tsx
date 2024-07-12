@@ -1,5 +1,6 @@
 import logo from '../../public/logo.svg';
 import Image from 'next/image';
+import Link from "next/link";
 import fb from '../../public/fb.svg';
 import insta from '../../public/insta.svg';
 import tiktok from '../../public/tiktok.svg';
@@ -7,17 +8,19 @@ import twitter from '../../public/twitter.svg';
 
 export default function Tutor_Reg_Congrat(){
     return(
-        <div className="bg-[#FFF3E5] w-full h-full">
-            <div className="lg:px-[200px] md:px-[70px] p-[15px]">
+        <div className="bg-[#FFF3E5] w-full h-full pb-6">
+            <div className="lg:px-[200px] md:px-[70px] p-[15px] flex flex-col gap-2">
                 <div className="py-2">
                     <h1 className="font-bold text-3xl text-[#f77f00]">Congratulations,  Jean Stephen! You are all set!</h1>
-                    <p className="text-lg">You are officially part of the tutor community.</p>
+                    <p className="text-lg mt-1">You are officially part of the tutor community.</p>
                 </div>
 
-                <div className="py-2">
-                    <p className="text-lg">Check your email for a confirmation and important next steps.</p>
-                    <p className="text-lg">Feel free to explore your Dashboard for additional information.</p>
+                <p className="text-lg">Check your email for a confirmation and important next steps.</p>
+                <p className="text-lg">Feel free to explore your Dashboard for additional information.</p>            
+                <div>
+                    <Link href='/tutor_reg/tutor_dashboard' className="bg-[#F77F00] text-white py-2 px-4 mt-2 rounded">Your Dashboard</Link>
                 </div>
+                
             </div>
 
             <div className='border-2 border-[#f77f00] lg:m-4 m-[10px] rounded-[30px]'>

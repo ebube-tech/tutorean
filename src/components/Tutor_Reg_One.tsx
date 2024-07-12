@@ -68,7 +68,7 @@ export default function Tutor_Reg_One(){
                     </div>
                 </div>
 
-                <Link href='/tutor_reg/step_two' className="bg-[#F77F00] text-white py-2 px-4 mt-5 rounded-[30px]">Continue</Link>
+                <Link href='/tutor_reg/step_two' className="bg-[#F77F00] text-white py-2 px-4 my-6 rounded-[30px]">Continue</Link>
                 
             </div>
         </div>
