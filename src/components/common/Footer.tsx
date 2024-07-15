@@ -6,13 +6,14 @@ import Text from "@/ui/footer/Text";
 
 function Footer() {
   return (
-    <div className="mx-[13px] rounded-[16px] border-[#F77F00] border-[2px]">
+    <div className="mx-[13px] rounded-[16px] border-[#F77F00] border-[2px] px-[12px]">
       <div>
         <div className="border-[#F77F00] border-b-[2px] pb-[50px]">
           <div className="max-w-[1120px] mx-auto flex justify-between pt-[29px] flex-wrap gap-[30px] ">
-            <div>
+            <div className="w-[100%] lg:w-auto">
               <Image src="/images/logo.svg" alt={""} width={155} height={40} />
             </div>
+
             <div className="flex flex-col gap-[12px]">
               <Heading text="Quick Link" />
               <Text text="Home" />
