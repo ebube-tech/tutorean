@@ -32,7 +32,6 @@ function MobileNav() {
           bottom: 0,
           top: 0,
           transform: `translateY(${showMobileMenu ? "0" : "-130vh"})`,
-          opacity: showMobileMenu ? "1" : "0",
           transition: "all 0.5s ease-in-out",
         }}
       >

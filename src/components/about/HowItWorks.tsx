@@ -1,19 +1,23 @@
 import React from "react";
+
 import Container from "@/ui/Container";
 import Heading from "@/ui/Heading";
 
 const howItWorks = [
   {
     title: "Why Tutorean",
-    description: "Flexible scheduling, competitive compensation, and a supportive community await you.",
+    description:
+      "Flexible scheduling, competitive compensation, and a supportive community await you.",
   },
   {
     title: "Requirements",
-    description: "Passion for teaching, relevant qualifications, and a desire to make a positive impact.",
+    description:
+      "Passion for teaching, relevant qualifications, and a desire to make a positive impact.",
   },
   {
     title: "Benefits",
-    description: "Make a difference, earn income, and contribute to students' educational journeys.",
+    description:
+      "Make a difference, earn income, and contribute to students' educational journeys.",
   },
 ];
 
@@ -33,7 +37,9 @@ function HowItWorks() {
                   <p className="font-[700]">{item.title}</p>
                 </div>
                 <div className="mt-[10px]">
-                  <p className="text-[#F77F00] text-center">{item.description}</p>
+                  <p className="text-[#F77F00] text-center">
+                    {item.description}
+                  </p>
                 </div>
               </div>
             ))}
@@ -45,6 +51,3 @@ function HowItWorks() {
 }
 
 export default HowItWorks;
-
-
-

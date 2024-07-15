@@ -1,8 +1,6 @@
-import Image from "next/image";
 import React from "react";
 
 import Container from "@/ui/Container";
-import Heading from "@/ui/Heading";
 
 function TutorSearch() {
   return (

@@ -2,14 +2,6 @@
 import React from "react";
 
 import Container from "@/ui/Container";
-import ListItems from "./ListItems";
-
-const Stats = [
-  "200,567+ 5-star reviews",
-  "1300+ tutors use us",
-  "40+ subjects available",
-  "300,709+ students",
-];
 
 function HeroSection() {
   return (
@@ -23,12 +15,14 @@ function HeroSection() {
             With Tutorean, knowledge meets potential
           </h1>
           <p className="text-lg lg:text-xl text-center lg:text-left mb-8">
-            Join us as a tutor and guide students on the educational path, share your expertise
-            and availability, and make a meaningful impact!
+            Join us as a tutor and guide students on the educational path, share
+            your expertise and availability, and make a meaningful impact!
           </p>
           <div className="flex gap-4 justify-center lg:justify-start">
             <button className="bg-[#5C4033] rounded-[30px] px-[32px] py-[16px] flex items-center justify-center">
-              <p className="font-bold text-lg text-white">DISCOVER THE BENEFITS</p>
+              <p className="font-bold text-lg text-white">
+                DISCOVER THE BENEFITS
+              </p>
             </button>
             <button className="bg-[#5C4033] rounded-[30px] px-[32px] py-[16px] flex items-center justify-center">
               <p className="font-bold text-lg text-white">SIGN UP</p>
@@ -51,8 +45,8 @@ function HeroSection() {
           Sign With Our Community of TUTORS
         </p>
         <p className="text-lg lg:text-xl text-center lg:text-left mb-8">
-          Join us as a tutor and guide students on the educational path, share your expertise
-          and availability, and make a meaningful impact!
+          Join us as a tutor and guide students on the educational path, share
+          your expertise and availability, and make a meaningful impact!
         </p>
       </div>
     </Container>

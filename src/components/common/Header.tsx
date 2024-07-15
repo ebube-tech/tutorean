@@ -3,7 +3,12 @@ import React from "react";
 
 import MobileNav from "@/layout/MobileNav";
 import NavItem from "@/ui/NavItem";
-const NavItems = ["Find a Tutor", "Become a Tutor", "Log In", "Sign Up"];
+const NavItems = [
+  { title: "Find a Tutor", link: "" },
+  { title: "Become a Tutor", link: "" },
+  { title: "Log In", link: "login" },
+  { title: "Sign Up", link: "" },
+];
 
 function Header() {
   return (
@@ -21,7 +26,7 @@ function Header() {
               className="bg-[#F77F00] px-[44px] py-[11px] bg-[#F77F007A] rounded-[18px]"
               key={index}
             >
-              <NavItem label={navItem} href="" />
+              <NavItem label={navItem.title} href={navItem.link} />
             </div>
           ))}
         </div>
