@@ -7,7 +7,7 @@ import Header from "@/components/common/Header";
 export default function about() {
   return (
     <div className="pb-[100px]">
-      <Header />
+    
       <HeroSection />
       <TutorSearch />
       <FeaturedTutors />
