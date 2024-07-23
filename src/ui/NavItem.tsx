@@ -14,7 +14,9 @@ const NavItem: FunctionComponent<NavItemProps> = ({
 }) => {
   return (
     <Link href={href} className={clsx("", className)}>
-      <p className="text-[#000] font-[700]">{label}</p>
+      <div className="bg-[#F77F00] px-[44px] py-[11px] bg-[#F77F007A] rounded-[18px]">
+        <p className="text-[#000] font-[700]">{label}</p>
+      </div>
     </Link>
   );
 };

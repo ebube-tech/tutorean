@@ -5,9 +5,9 @@ import MobileNav from "@/layout/MobileNav";
 import NavItem from "@/ui/NavItem";
 const NavItems = [
   { title: "Find a Tutor", link: "" },
-  { title: "Become a Tutor", link: "" },
+  { title: "Become a Tutor", link: "tutor_registration" },
   { title: "Log In", link: "login" },
-  { title: "Sign Up", link: "" },
+  { title: "Sign Up", link: "tutor_registration" },
 ];
 
 function Header() {
@@ -22,10 +22,7 @@ function Header() {
 
         <div className=" flex gap-[30px] items-center">
           {NavItems.map((navItem, index) => (
-            <div
-              className="bg-[#F77F00] px-[44px] py-[11px] bg-[#F77F007A] rounded-[18px]"
-              key={index}
-            >
+            <div key={index}>
               <NavItem label={navItem.title} href={navItem.link} />
             </div>
           ))}
