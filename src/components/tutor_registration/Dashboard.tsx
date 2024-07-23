@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function Tutor_Reg_Two(){
+export default function Dashboard(){
   return (
     <div className="bg-[#FFF3E5] lg:px-[30px] md:px-[30px] px-[5px] lg:py-10 py-4 text-[#1b1c1e] w-[100%] h-[100%] flex flex-col lg:flex-row gap-4">
         <div className="border-2 border-[#F77F00] rounded-[30px] lg:w-[40%] w-full h-full px-[20px] py-4 flex flex-col gap-[10px] overflow-hidden">
