@@ -11,7 +11,7 @@ import FeaturedTutors from "@/components/about/howitwork";
 export default function about() {
   return (
     <div className="pb-[100px]">
-      <Header />
+     
       <HeroSection />
       <TutorSearch />
       <FeaturedTutors />
