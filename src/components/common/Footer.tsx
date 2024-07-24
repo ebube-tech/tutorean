@@ -6,7 +6,7 @@ import Text from "@/ui/footer/Text";
 
 function Footer() {
   return (
-    <div className="mx-[13px] rounded-[16px] border-[#F77F00] border-[2px] px-[12px]">
+    <div className="mx-[13px] rounded-[16px] border-[#F77F00] border-[2px] px-[12px] mt-[50px]">
       <div>
         <div className="border-[#F77F00] border-b-[2px] pb-[50px]">
           <div className="max-w-[1120px] mx-auto flex justify-between pt-[29px] flex-wrap gap-[30px] ">
