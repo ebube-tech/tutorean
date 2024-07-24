@@ -1,38 +1,58 @@
-import Image from "next/image";
 import React from "react";
-
 import Container from "@/ui/Container";
-import Heading from "@/ui/Heading";
 
 function TutorSearch() {
   return (
     <div className="pt-0">
       <Container>
-        <div className="w-full rounded-[30px] pt-[46px] pb-[53px]">
-          {/* First Image Section */}
-          <div className="mt-[57px] px-[16px] md:px-[34px] lg:px-[68px] rounded-[30px] w-full flex items-center justify-between">
+        {/* First Section: Box on the left, Image on the right */}
+        <div className="w-full flex flex-col lg:flex-row items-stretch mb-[57px]">
+          <div className="bg-[#5C4033] rounded-t-[30px] lg:rounded-l-[30px] lg:rounded-r-none p-8 w-full lg:w-1/2 flex flex-col items-center justify-center text-white">
+            <h2 className="text-xl lg:text-2xl font-bold mb-4">Diverse subjects</h2>
+            <p className="text-lg lg:text-xl text-center">
+              Teach subjects you're passionate about ranging from academics to skill development
+            </p>
+          </div>
+          <div className="w-full lg:w-1/2">
             <img
-              src="/images/middlewoman.png"
+              src="/images/1st_image.png"
               alt="Description of your image"
-              className="w-full h-auto object-cover rounded-[30px]"
+              className="w-full h-auto object-cover rounded-b-[30px] lg:rounded-r-[30px] lg:rounded-l-none"
             />
           </div>
+        </div>
+      
 
-          {/* Second Image Section */}
-          <div className="mt-[57px] px-[16px] md:px-[34px] lg:px-[68px] rounded-[30px] w-full flex items-center justify-between">
+        {/* Second Section: Image on the left, Box on the right */}
+        <div className="w-full flex flex-col lg:flex-row-reverse items-stretch mb-[57px]">
+          <div className="bg-[#5C4033] rounded-t-[30px] lg:rounded-r-[30px] lg:rounded-l-none p-8 w-full lg:w-1/2 flex flex-col items-center justify-center text-white">
+            <h2 className="text-xl lg:text-2xl font-bold mb-4">Diverse subjects</h2>
+            <p className="text-lg lg:text-xl text-center">
+            Teach subjects you're passionate about ranging from academics to skill development
+            </p>
+          </div>
+          <div className="w-full lg:w-1/2">
             <img
-              src="/images/middlewoman2.png"
+              src="/images/2nd_image.png"
               alt="Description of your image"
-              className="w-full h-auto object-cover rounded-[30px]"
+              className="w-full h-auto object-cover rounded-b-[30px] lg:rounded-l-[30px] lg:rounded-r-none"
             />
           </div>
+        </div>
 
-          {/* Third Image Section */}
-          <div className="mt-[57px] px-[16px] md:px-[34px] lg:px-[68px] rounded-[30px] w-full flex items-center justify-between">
+        {/* Third Section: Box on the left, Image on the right */}
+        <div className="w-full flex flex-col lg:flex-row items-stretch">
+          <div className="bg-[#5C4033] rounded-t-[30px] lg:rounded-l-[30px] lg:rounded-r-none p-8 w-full lg:w-1/2 flex flex-col items-center justify-center text-white">
+            <h2 className="text-xl lg:text-2xl font-bold mb-4">Diverse subjects</h2>
+            <p className="text-lg lg:text-xl text-center">
+            Teach subjects you're passionate about ranging from academics to skill development
+            </p>
+          </div>
+          <div className="w-full lg:w-1/2">
             <img
-              src="/images/middlewoman3.png"
+              src="/images/1st_image.png"
               alt="Description of your image"
-              className="w-full h-auto object-cover rounded-[30px]"
+              className="w-full h-auto object-cover rounded-b-[30px] lg:rounded-r-[30px] lg:rounded-l-none"
             />
           </div>
         </div>
