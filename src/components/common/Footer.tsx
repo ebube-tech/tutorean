@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 import Heading from "@/ui/footer/Heading";
@@ -16,28 +17,46 @@ function Footer() {
 
             <div className="flex flex-col gap-[12px]">
               <Heading text="Quick Link" />
-              <Text text="Home" />
-              <Text text="Home" />
-              <Text text="Home" />
-              <Text text="Home" />
-              <Text text="Home" />
+              <Link href="/">
+                <Text text="Home" />
+              </Link>
+
+              <Link href="/about-us">
+                <Text text="About" />
+              </Link>
+              <Link href="contact-us">
+                <Text text="Contact us" />
+              </Link>
+              <Link href="/terms">
+                <Text text="Terms and Conditions" />
+              </Link>
+              <Link href="/privacy-policy">
+                <Text text="Privacy Policy" />
+              </Link>
             </div>
             <div className="flex flex-col gap-[12px]">
-              <Heading text="Explore" />
-              <Text text="Home" />
-              <Text text="Home" />
-              <Text text="Home" />
-              <Text text="Home" />
-              <Text text="Home" />
+              <Heading text="Start Your Journey" />
+              <Link href="/">
+                <Text text="Become a Tutor" />
+              </Link>
+              <Link href="/">
+                <Text text="Find Tutors" />
+              </Link>
+              <Link href="/">
+                <Text text="Become a Student" />
+              </Link>
+              <Link href="/">
+                <Text text="Login" />
+              </Link>
             </div>
-            <div className="flex flex-col gap-[12px]">
+            {/* <div className="flex flex-col gap-[12px]">
               <Heading text="Careers" />
               <Text text="Home" />
               <Text text="Home" />
               <Text text="Home" />
               <Text text="Home" />
               <Text text="Home" />
-            </div>
+            </div> */}
             <p className="max-w-[400px] mt-[30px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatem, aliquid odit fugit obcaecati eos beatae
