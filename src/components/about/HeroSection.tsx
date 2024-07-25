@@ -2,14 +2,6 @@
 import React from "react";
 
 import Container from "@/ui/Container";
-import ListItems from "./ListItems";
-
-const Stats = [
-  "200,567+ 5-star reviews",
-  "1300+ tutors use us",
-  "40+ subjects available",
-  "300,709+ students",
-];
 
 function HeroSection() {
   return (
@@ -19,19 +11,23 @@ function HeroSection() {
       <div className="flex flex-col lg:flex-row items-center lg:gap-[40px]">
         {/* Text Content */}
         <div className="lg:max-w-[50%]">
-          <h1 className="max-w-[1000px] font-bold text-3xl lg:text-5xl text-[#F77F00] leading-[66.56px] mb-8">
+          <h1 className="max-w-[1000px] font-bold text-3xl lg:text-5xl text-[#F77F00] lg:leading-[66.56px] mb-8">
             With Tutorean, knowledge meets potential
           </h1>
-          <p className="text-lg lg:text-xl text-center lg:text-left mb-8">
-            Join us as a tutor and guide students on the educational path, share your expertise
-            and availability, and make a meaningful impact!
+          <p className="text-lg lg:text-xl lg:text-center lg:text-left mb-8">
+            Join us as a tutor and guide students on the educational path, share
+            your expertise and availability, and make a meaningful impact!
           </p>
           <div className="flex gap-4 justify-center lg:justify-start">
-            <button className="bg-[#5C4033] rounded-[30px] px-[32px] py-[16px] flex items-center justify-center">
-              <p className="font-bold text-lg text-white">DISCOVER THE BENEFITS</p>
+            <button className="bg-[#5C4033] rounded-[30px] px-[32px] py-[8px] lg:py-[16px] flex items-center justify-center">
+              <p className="lg:font-bold lg:text-lg text-white text-[0.865rem]">
+                DISCOVER THE BENEFITS
+              </p>
             </button>
-            <button className="bg-[#5C4033] rounded-[30px] px-[32px] py-[16px] flex items-center justify-center">
-              <p className="font-bold text-lg text-white">SIGN UP</p>
+            <button className="bg-[#5C4033] rounded-[30px] px-[32px] lg:py-[16px] flex items-center justify-center py-[8px]  flex-none">
+              <p className="lg:font-bold lg:text-lg text-white text-[0.865rem]">
+                SIGN UP
+              </p>
             </button>
           </div>
         </div>
@@ -51,8 +47,8 @@ function HeroSection() {
           Sign With Our Community of TUTORS
         </p>
         <p className="text-lg lg:text-xl text-center lg:text-left mb-8">
-          Join us as a tutor and guide students on the educational path, share your expertise
-          and availability, and make a meaningful impact!
+          Join us as a tutor and guide students on the educational path, share
+          your expertise and availability, and make a meaningful impact!
         </p>
       </div>
     </Container>

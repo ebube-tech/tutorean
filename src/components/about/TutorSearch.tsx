@@ -8,9 +8,12 @@ function TutorSearch() {
         {/* First Section: Box on the left, Image on the right */}
         <div className="w-full flex flex-col lg:flex-row items-stretch mb-[57px]">
           <div className="bg-[#5C4033] rounded-t-[30px] lg:rounded-l-[30px] lg:rounded-r-none p-8 w-full lg:w-1/2 flex flex-col items-center justify-center text-white">
-            <h2 className="text-xl lg:text-2xl font-bold mb-4">Diverse subjects</h2>
+            <h2 className="text-xl lg:text-2xl font-bold mb-4">
+              Diverse subjects
+            </h2>
             <p className="text-lg lg:text-xl text-center">
-              Teach subjects you're passionate about ranging from academics to skill development
+              Teach subjects you're passionate about ranging from academics to
+              skill development
             </p>
           </div>
           <div className="w-full lg:w-1/2">
@@ -21,14 +24,16 @@ function TutorSearch() {
             />
           </div>
         </div>
-      
 
         {/* Second Section: Image on the left, Box on the right */}
         <div className="w-full flex flex-col lg:flex-row-reverse items-stretch mb-[57px]">
           <div className="bg-[#5C4033] rounded-t-[30px] lg:rounded-r-[30px] lg:rounded-l-none p-8 w-full lg:w-1/2 flex flex-col items-center justify-center text-white">
-            <h2 className="text-xl lg:text-2xl font-bold mb-4">Diverse subjects</h2>
+            <h2 className="text-xl lg:text-2xl font-bold mb-4">
+              Diverse subjects
+            </h2>
             <p className="text-lg lg:text-xl text-center">
-            Teach subjects you're passionate about ranging from academics to skill development
+              Teach subjects you're passionate about ranging from academics to
+              skill development
             </p>
           </div>
           <div className="w-full lg:w-1/2">
@@ -43,9 +48,12 @@ function TutorSearch() {
         {/* Third Section: Box on the left, Image on the right */}
         <div className="w-full flex flex-col lg:flex-row items-stretch">
           <div className="bg-[#5C4033] rounded-t-[30px] lg:rounded-l-[30px] lg:rounded-r-none p-8 w-full lg:w-1/2 flex flex-col items-center justify-center text-white">
-            <h2 className="text-xl lg:text-2xl font-bold mb-4">Diverse subjects</h2>
+            <h2 className="text-xl lg:text-2xl font-bold mb-4">
+              Diverse subjects
+            </h2>
             <p className="text-lg lg:text-xl text-center">
-            Teach subjects you're passionate about ranging from academics to skill development
+              Teach subjects you're passionate about ranging from academics to
+              skill development
             </p>
           </div>
           <div className="w-full lg:w-1/2">

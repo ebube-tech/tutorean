@@ -1,5 +1,3 @@
-import Footer from "@/components/common/Footer";
-import Header from "@/components/common/Header";
 import CooperateTraining from "@/components/home/CooperateTraining";
 import Faq from "@/components/home/Faq";
 import FeaturedTutors from "@/components/home/FeaturedTutors";
@@ -11,8 +9,7 @@ import WhyChooseUs from "@/components/home/WhyChooseUs";
 
 export default function Home() {
   return (
-    <div className="pb-[95px]">
-      <Header />
+    <div>
       <HeroSection />
       <TutorSearch />
       <FeaturedTutors />
@@ -21,7 +18,6 @@ export default function Home() {
       <JoinOurTeam />
       <Faq />
       <CooperateTraining />
-      <Footer />
     </div>
   );
 }

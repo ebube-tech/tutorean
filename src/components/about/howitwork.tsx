@@ -1,4 +1,5 @@
 import React from "react";
+
 import Container from "@/ui/Container";
 import Heading from "@/ui/Heading";
 
@@ -23,11 +24,14 @@ function FeaturedTutors() {
             {/* Text content on the right */}
             <div className="flex-1 lg:px-[150px] mt-[36px] lg:mt-0">
               <div className="flex lg:flex-row flex-col items-center lg:gap-[219px]">
-                <h6 className="font-bold text-center lg:text-left">Create Your Profile</h6>
+                <h6 className="font-bold text-center lg:text-left">
+                  Create Your Profile
+                </h6>
               </div>
               <div className="mt-[30px] flex gap-[20px]">
                 <h6 className="font-bold text-center lg:text-left">
-                  Craft a standard tutor profile showcasing your expertise and teaching style
+                  Craft a standard tutor profile showcasing your expertise and
+                  teaching style
                 </h6>
               </div>
             </div>
@@ -46,11 +50,14 @@ function FeaturedTutors() {
             {/* Text content on the left */}
             <div className="flex-1 lg:px-[150px] mt-[36px] lg:mt-0">
               <div className="flex lg:flex-row flex-col items-center lg:gap-[219px]">
-                <h6 className="font-bold text-center lg:text-left">Set Your Availability</h6>
+                <h6 className="font-bold text-center lg:text-left">
+                  Set Your Availability
+                </h6>
               </div>
               <div className="mt-[30px] flex gap-[20px]">
                 <h6 className="font-bold text-center lg:text-left">
-                  Choose your flexible scheduling on your user-friendly calendar system
+                  Choose your flexible scheduling on your user-friendly calendar
+                  system
                 </h6>
               </div>
             </div>
@@ -69,11 +76,14 @@ function FeaturedTutors() {
             {/* Text content on the right */}
             <div className="flex-1 lg:px-[150px] mt-[36px] lg:mt-0">
               <div className="flex lg:flex-row flex-col items-center lg:gap-[219px]">
-                <h6 className="font-bold text-center lg:text-left">Connect With Learners</h6>
+                <h6 className="font-bold text-center lg:text-left">
+                  Connect With Learners
+                </h6>
               </div>
               <div className="mt-[30px] flex gap-[20px]">
                 <h6 className="font-bold text-center lg:text-left">
-                  Start booking sessions and making a difference in student lives
+                  Start booking sessions and making a difference in student
+                  lives
                 </h6>
               </div>
             </div>
