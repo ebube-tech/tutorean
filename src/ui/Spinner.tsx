@@ -1,4 +1,5 @@
-import clsx from 'clsx';
+import clsx from "clsx";
+import Image from "next/image";
 
 interface SpinnerProps {
   className?: string;
@@ -6,10 +7,12 @@ interface SpinnerProps {
 
 export default function Spinner({ className }: SpinnerProps) {
   return (
-    <img
+    <Image
       src="/images/form/spinner.svg"
       alt=""
-      className={clsx('h-[30px] w-[30px] mx-auto', className)}
+      className={clsx("h-[30px] w-[30px] mx-auto", className)}
+      height={30}
+      width={30}
     />
   );
 }
