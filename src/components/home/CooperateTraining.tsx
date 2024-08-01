@@ -4,11 +4,11 @@ import React from "react";
 function CooperateTraining() {
   return (
     <div className="px-[28px] pt-[158px] pb-[100px]">
-      <div className="lg:h-[670px]  bg-[#5C4033] flex flex-col lg:flex-row px-[20px] py-[40px] gap-[20px] pt-[150px] items-start justify-center rounded-[62px] gap-[84px] ">
+      <div className="  bg-[#5C4033] flex flex-col lg:flex-row px-[20px] py-[40px] gap-[20px] pt-[150px] items-start justify-center rounded-[12px] lg:rounded-[62px] gap-[84px] ">
         <img
           src="/images/cooperate-training.png"
           alt=""
-          className="w-[100%] lg:w-[auto]"
+          className="w-[100%] lg:w-[auto] rounded-[8px]"
         />
 
         <div className="max-w-[800px]">

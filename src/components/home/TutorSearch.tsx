@@ -4,6 +4,27 @@ import React from "react";
 import Container from "@/ui/Container";
 import Heading from "@/ui/Heading";
 
+const Courses = [
+  "Python",
+  "Algebra",
+  "C++",
+  "AI/ML",
+  "3D Modelling",
+  "Blockchain",
+  "Unity",
+  "Data Science",
+  "Java",
+  "Ruby",
+  "Photoshop",
+  "Scrum",
+  "CyberSecurity",
+  "C#",
+  "Swift",
+  "JavaScript",
+  "Robotics",
+  "DevOps",
+];
+
 function TutorSearch() {
   return (
     <div className="pt-[96px]">
@@ -39,14 +60,14 @@ function TutorSearch() {
             </div>
           </div>
 
-          <div className="mt-[36px] flex lg:pl-[60px] pr-[px] gap-[37px] flex-wrap justify-center">
-            {Array.from({ length: 18 }).map((_, index) => (
+          <div className="mt-[36px] flex lg:pl-[60px] pr-[px] lg:gap-[20px] gap-[16px] flex-wrap justify-center">
+            {Courses.map((_, index) => (
               <div
                 key={index}
                 className="px-[20px] h-[52px]  rounded-[20px] flex items-center border-[1px] bg-[#FFF3E566] justify-center"
               >
                 <p className="font-[700] lg:text-[1.25rem] text-[#F77F00CC] text-[0.865rem]">
-                  Python
+                  {_}
                 </p>
               </div>
             ))}

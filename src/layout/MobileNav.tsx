@@ -51,15 +51,18 @@ function MobileNav() {
           <Link href={"/about-us"} onClick={handleClose}>
             <p className="font-[500] text-[14px]">About Us</p>
           </Link>
-          <Link href={"/services"} onClick={handleClose}>
-            <p className="font-[500] text-[14px]">Services</p>
-          </Link>
+
           <Link href={"/contact-us"} onClick={handleClose}>
             <p className="font-[500] text-[14px]">Contact Us</p>
           </Link>
-          <Link href={"/login"}>
+          <Link href={"#"}>
             <p className="font-[500] text-[14px] border-[2px] py-[10px] px-[20px] rounded-[5px]">
               Login
+            </p>
+          </Link>
+          <Link href={"#"}>
+            <p className="font-[500] text-[14px] border-[2px] py-[10px] px-[20px] rounded-[5px]">
+              Sign Up
             </p>
           </Link>
         </div>

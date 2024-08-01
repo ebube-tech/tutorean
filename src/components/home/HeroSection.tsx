@@ -20,7 +20,7 @@ function HeroSection() {
 
       <div className="flex lg:flex-row flex-col items-center xl:gap-[219px] gap-[20px]">
         <div className="mr-[20px]">
-          <h1 className="xl:max-w-[690px] font-[700] text-[3.438rem] text-[#F77F00] leading-[66.56px]">
+          <h1 className="xl:max-w-[690px] font-[700] text-[3.438rem] leading-[120%] text-[#F77F00] lg:leading-[66.56px]">
             Grow one lesson at a time on Tutorean
           </h1>
           <div className="xl:w-[731px] flex flex-col gap-[13px] flex-none mt-[44px]">

@@ -13,10 +13,9 @@ function JoinOurTeam() {
             </p>
 
             <p className="mt-[24px] max-w-[343px] text-[#F5F2F2] text-[0.825rem]">
-              Lorem ipsum dolor sit amet consectetur. Sed aliquam vel a egestas
-              in. Elit dui pellentesque amet erat facilisis. Lacinia nibh
-              facilisis varius interdum pretium nunc quis. Justo orci facilisi
-              quis.
+              Join the Tutoring Revolution and transform lives. Enjoy the
+              freedom to set your own tutoring hours and work from anywhere.
+              Enjoy great earning potential. Don’t miss out.
             </p>
           </div>
           <div>

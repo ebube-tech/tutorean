@@ -11,12 +11,12 @@ import Container from "@/ui/Container";
 
 const ContactOptions = [
   {
-    icon: <FaLocationDot className="text-[2rem]" />,
+    icon: <FaLocationDot className="lg:text-[2rem]" />,
     contactInfo: "Lagos, Nigeria",
   },
-  { icon: <FaPhone className="text-[2rem]" />, contactInfo: "07123456789" },
+  { icon: <FaPhone className="lg:text-[2rem]" />, contactInfo: "07123456789" },
   {
-    icon: <MdEmail className="text-[2rem]" />,
+    icon: <MdEmail className="lg:text-[2rem]" />,
     contactInfo: "tutorean@gmail.com",
   },
 ];
@@ -35,7 +35,7 @@ function page() {
       </div>
       <Container className="pt-[56px] flex flex-col lg:flex-row gap-[55px] pb-[100px]">
         <div className="lg:w-[50%]">
-          <p className="text-[2.5rem] font-[700]">Talk With Us</p>
+          <p className="text-[1.8rem] font-[700]">Talk With Us</p>
           <p className="text-[0.865rem] leading-[140%]">
             Personalized 1-on-1 lessons, trusted by millions of learners in
             Africa. Learn from certified experts who match your budget and
@@ -43,11 +43,11 @@ function page() {
             instructors.
           </p>
 
-          <div className="mt-[30px] flex flex-col gap-[36px]">
+          <div className="mt-[30px] flex flex-col lg:gap-[36px] gap-[20px]">
             {ContactOptions.map((option, index) => (
               <div key={index} className="flex items-center gap-[8px]">
                 {option.icon}
-                <p className="text-[1.563rem] font-[600]">
+                <p className="lg:text-[1.563rem] font-[600]">
                   {option.contactInfo}
                 </p>
               </div>

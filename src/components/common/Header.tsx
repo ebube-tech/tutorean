@@ -5,10 +5,10 @@ import React from "react";
 import MobileNav from "@/layout/MobileNav";
 import NavItem from "@/ui/NavItem";
 const NavItems = [
-  { title: "Find a Tutor", link: "" },
-  { title: "Become a Tutor", link: "tutor_registration" },
-  { title: "Log In", link: "login" },
-  { title: "Sign Up", link: "tutor_registration" },
+  { title: "About Us", link: "/about-us" },
+  { title: "Contact Us", link: "/contact-us" },
+  { title: "Log In", link: "#" },
+  { title: "Sign Up", link: "#" },
 ];
 
 function Header() {
@@ -25,8 +25,15 @@ function Header() {
 
         <div className=" flex gap-[30px] items-center">
           {NavItems.map((navItem, index) => (
-            <div key={index}>
-              <NavItem label={navItem.title} href={navItem.link} />
+            <div
+              key={index}
+              className="bg-[#F77F00] px-[44px] h-[46px] flex items-center rounded-[18px]"
+            >
+              <NavItem
+                label={navItem.title}
+                href={navItem.link}
+                className="px-[12px] py-[11px]rounded-[18px]"
+              />
             </div>
           ))}
         </div>

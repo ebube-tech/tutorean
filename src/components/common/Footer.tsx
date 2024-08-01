@@ -24,7 +24,7 @@ function Footer() {
               <Link href="/about-us">
                 <Text text="About" />
               </Link>
-              <Link href="contact-us">
+              <Link href="/contact-us">
                 <Text text="Contact us" />
               </Link>
               <Link href="/terms">
@@ -36,16 +36,16 @@ function Footer() {
             </div>
             <div className="flex flex-col gap-[12px]">
               <Heading text="Start Your Journey" />
-              <Link href="/">
+              <Link href="#">
                 <Text text="Become a Tutor" />
               </Link>
-              <Link href="/">
+              <Link href="#">
                 <Text text="Find Tutors" />
               </Link>
-              <Link href="/">
+              <Link href="#">
                 <Text text="Become a Student" />
               </Link>
-              <Link href="/">
+              <Link href="#">
                 <Text text="Login" />
               </Link>
             </div>
