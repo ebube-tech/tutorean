@@ -2,11 +2,10 @@
 
 import "react-toastify/dist/ReactToastify.css";
 
-import axios from "axios";
 import { Form, Formik } from "formik";
 import { Link } from "lucide-react";
 import { FaGoogle, FaLinkedin } from "react-icons/fa6";
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import * as Yup from "yup";
 
 import Input from "@/components/Input";
@@ -46,25 +45,7 @@ function LoginPage() {
               password: "",
             }}
             validationSchema={validationSchema}
-            onSubmit={async (values, { setSubmitting }) => {
-              // Handle form submission
-              try {
-                const response = await axios.post(
-                  `https://tutorease.azurewebsites.net/api/User/register`,
-                  values
-                );
-                if (response.data.success) {
-                  toast.success("Logged in successfully!");
-                  window.location.href = "/";
-                } else {
-                  toast.error(response.data.message);
-                }
-              } catch (error) {
-                toast.error(error.response.data.message);
-              } finally {
-                setSubmitting(false);
-              }
-            }}
+            onSubmit={async () => {}}
           >
             {({ errors, touched }) => (
               <Form className="flex flex-col gap-[16px]">
