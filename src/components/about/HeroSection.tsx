@@ -11,7 +11,7 @@ function HeroSection() {
       <div className="flex flex-col lg:flex-row items-center lg:gap-[40px]">
         {/* Text Content */}
         <div className="lg:max-w-[50%]">
-          <h1 className="max-w-[1000px] font-bold text-3xl lg:text-5xl text-[#F77F00] lg:leading-[66.56px] mb-8">
+          <h1 className="xl:max-w-[690px] font-[700] text-[3.438rem] leading-[120%] text-[#F77F00] lg:leading-[66.56px]">
             With Tutlee, knowledge meets potential
           </h1>
           <p className="text-lg lg:text-xl  lg:text-left mb-8">
