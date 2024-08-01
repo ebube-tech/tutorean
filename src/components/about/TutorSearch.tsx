@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 import Container from "@/ui/Container";
@@ -10,11 +12,11 @@ function TutorSearch() {
         <div className="w-full flex flex-col lg:flex-row items-stretch mb-[57px]">
           <div className="bg-[#5C4033] rounded-t-[30px] lg:rounded-l-[30px] lg:rounded-r-none p-8 w-full lg:w-1/2 flex flex-col items-center justify-center text-white">
             <h2 className="text-xl lg:text-2xl font-bold mb-4">
-              Diverse subjects
+              Benefit of Joining
             </h2>
             <p className="text-lg lg:text-xl text-center">
-              Teach subjects you're passionate about ranging from academics to
-              skill development
+              Experience flexibility, attractive earnings and a strong community
+              of supportive tutors
             </p>
           </div>
           <div className="w-full lg:w-1/2">
@@ -50,11 +52,11 @@ function TutorSearch() {
         <div className="w-full flex flex-col lg:flex-row items-stretch">
           <div className="bg-[#5C4033] rounded-t-[30px] lg:rounded-l-[30px] lg:rounded-r-none p-8 w-full lg:w-1/2 flex flex-col items-center justify-center text-white">
             <h2 className="text-xl lg:text-2xl font-bold mb-4">
-              Diverse subjects
+              Interactive platform
             </h2>
             <p className="text-lg lg:text-xl text-center">
-              Teach subjects you're passionate about ranging from academics to
-              skill development
+              Enjoy user friendly virtual classrooms for seamless and hassle
+              free tutoring sessions.
             </p>
           </div>
           <div className="w-full lg:w-1/2">

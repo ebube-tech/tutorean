@@ -12,7 +12,7 @@ function Footer() {
         <div className="border-[#F77F00] border-b-[2px] pb-[50px]">
           <div className="max-w-[1120px] mx-auto flex justify-between pt-[29px] flex-wrap gap-[30px] ">
             <div className="w-[100%] lg:w-auto">
-              <Image src="/images/logo.svg" alt={""} width={155} height={40} />
+              <Image src="/images/logo.png" alt={""} width={155} height={40} />
             </div>
 
             <div className="flex flex-col gap-[12px]">
@@ -58,11 +58,9 @@ function Footer() {
               <Text text="Home" />
             </div> */}
             <p className="max-w-[400px] mt-[30px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem, aliquid odit fugit obcaecati eos beatae
-              exercitationem! Repellendus, voluptatum facere necessitatibus a
-              commodi facilis praesentium dignissimos, sapiente corporis tenetur
-              hic repudiandae!
+              Join us as a tutor and guide students on the educational path,
+              share your expertise and availability, and make a meaningful
+              impact!
             </p>
           </div>
         </div>

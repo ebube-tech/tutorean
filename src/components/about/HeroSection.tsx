@@ -12,9 +12,9 @@ function HeroSection() {
         {/* Text Content */}
         <div className="lg:max-w-[50%]">
           <h1 className="max-w-[1000px] font-bold text-3xl lg:text-5xl text-[#F77F00] lg:leading-[66.56px] mb-8">
-            With Tutorean, knowledge meets potential
+            With Tutlee, knowledge meets potential
           </h1>
-          <p className="text-lg lg:text-xl lg:text-center lg:text-left mb-8">
+          <p className="text-lg lg:text-xl  lg:text-left mb-8">
             Join us as a tutor and guide students on the educational path, share
             your expertise and availability, and make a meaningful impact!
           </p>
