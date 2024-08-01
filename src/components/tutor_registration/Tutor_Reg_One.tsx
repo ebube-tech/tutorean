@@ -1,6 +1,7 @@
-import Progress from "./Progress";
 import Image from 'next/image';
 import Link from "next/link";
+
+import Progress from "./Progress";
 
 export default function Tutor_Reg_One(){
   return (
