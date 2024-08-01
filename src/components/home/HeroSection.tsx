@@ -18,7 +18,7 @@ function HeroSection() {
     <Container>
       <div className="lg:mt-[156px] mt-[80px]"></div>
 
-      <div className="flex lg:flex-row flex-col items-center xl:gap-[219px] gap-[20px]">
+      <div className="flex lg:flex-row flex-col items-center justify-center gap-[20px]">
         <div className="mr-[20px]">
           <h1 className="xl:max-w-[690px] font-[700] text-[3.438rem] leading-[120%] text-[#F77F00] lg:leading-[66.56px]">
             Grow one lesson at a time on Tutlee
