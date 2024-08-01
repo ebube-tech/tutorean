@@ -16,7 +16,7 @@ function MobileNav() {
   };
 
   return (
-    <div className="p-[20px]">
+    <div className="px-[20px]">
       <div className="flex justify-between items-center">
         <Image src="/images/logo.png" alt={""} width={80} height={40} />
         <CiMenuFries onClick={() => setShowMobileMenu(!showMobileMenu)} />
@@ -45,9 +45,9 @@ function MobileNav() {
         </div>
 
         <div className="flex flex-col gap-[30px] items-center mt-[32px] ">
-          <a>
+          <Link href="/" onClick={handleClose}>
             <p className="font-[500] text-[14px]">Home</p>
-          </a>
+          </Link>
           <Link href={"/about-us"} onClick={handleClose}>
             <p className="font-[500] text-[14px]">About Us</p>
           </Link>
