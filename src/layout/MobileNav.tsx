@@ -18,7 +18,7 @@ function MobileNav() {
   return (
     <div className="p-[20px]">
       <div className="flex justify-between items-center">
-        <Image src="/images/logo.svg" alt={""} width={80} height={40} />
+        <Image src="/images/logo.png" alt={""} width={80} height={40} />
         <CiMenuFries onClick={() => setShowMobileMenu(!showMobileMenu)} />
       </div>
 
@@ -37,7 +37,7 @@ function MobileNav() {
       >
         <div className="flex justify-between px-[20px] py-[20px]">
           <div>
-            <Image src="/images/logo.svg" alt={""} width={80} height={40} />
+            <Image src="/images/logo.png" alt={""} width={80} height={40} />
           </div>
           <div onClick={handleClose}>
             <IoMdClose className="text-[30px]" />

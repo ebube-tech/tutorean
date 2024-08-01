@@ -9,11 +9,11 @@ function WhyChooseUs() {
     <Container>
       <div className="pt-[108px] pb-[100px]">
         <div className="">
-          <Heading text=" What they say about Tutorean As Featured" />
+          <Heading text=" What they say about Tutlee As Featured" />
           <p className="leading-[24.2px] text-center text-[1.35rem] mt-[27px] max-w-[837px] mx-auto">
-            Satisfied students and tutors on Tutorean share their experience on
+            Satisfied students and tutors on Tutlee share their experience on
             the platform. They share how their individual journeys have been
-            transformed by their use of Tutorean{" "}
+            transformed by their use of Tutlee{" "}
           </p>
           <div className="flex justify-center flex-wrap  gap-[20px]">
             {Array.from({ length: 3 }).map((_, index) => (
@@ -36,17 +36,13 @@ function WhyChooseUs() {
                 text-center"
                 >
                   <p className="font-[700]">James Adolf</p>
-                  <p className="mt-[11px] text-[0.865rem]">
+                  <p className="mt-[6px] text-[0.865rem]">
                     <span className="font-[700]">Algebra</span>
-                    <span className="pl-[15px] text-[#3A3A3A] ">
-                      (512 Reviews)
-                    </span>
                   </p>
-                  <p>⭐⭐⭐⭐⭐</p>
-                  <p className="mt-[12px] text-[0.865rem] font-[700]">Spain</p>
+                  <p className="mt-[2px] text-[0.865rem] font-[700]">Spain</p>
                   <p className="mt-[8px] text-[#3A3A3A] text-[0.865rem] leading-[140%]">
-                    With over 5 years of experience as a tutor, I teach my
-                    students to succeed
+                    Tutlee has successfully upgraded my skills as beginner
+                    software developer to a pro level
                   </p>
                 </div>
               </div>

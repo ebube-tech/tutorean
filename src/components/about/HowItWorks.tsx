@@ -5,7 +5,7 @@ import Heading from "@/ui/Heading";
 
 const howItWorks = [
   {
-    title: "Why Tutorean",
+    title: "Why Tutlee",
     description:
       "Flexible scheduling, competitive compensation, and a supportive community await you.",
   },
@@ -26,7 +26,7 @@ function HowItWorks() {
     <div className="bg-white pb-[130px]">
       <Container>
         <div className="pt-[145px]">
-          <Heading text="Learn more about tutoring on Tutorean" />
+          <Heading text="Learn more about tutoring on Tutlee" />
           <div className="grid gap-[31px] mt-[61px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {howItWorks.map((item, index) => (
               <div

@@ -21,7 +21,7 @@ function HowItWorks() {
                 className="max-w-[420px] bg-[#fff] rounded-[40px] mt-[60px] leading-[24.2px] text-[1.35rem] mx-auto"
               >
                 <div className="bg-[#F77F00] -mt-[25px] relative z-[10] h-[95px] rounded-tr-[40px]  rounded-tl-[40px] items-center flex justify-center text-[#fff] border-[4px] border-[#000]">
-                  <p className="font-[700]">{item}rs</p>
+                  <p className="font-[700]">{item}</p>
                 </div>
                 <img
                   alt=""

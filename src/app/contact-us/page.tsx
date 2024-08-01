@@ -17,7 +17,7 @@ const ContactOptions = [
   { icon: <FaPhone className="lg:text-[2rem]" />, contactInfo: "07123456789" },
   {
     icon: <MdEmail className="lg:text-[2rem]" />,
-    contactInfo: "tutorean@gmail.com",
+    contactInfo: "contact@tutlee.com",
   },
 ];
 
@@ -27,7 +27,7 @@ function page() {
       <div className="lg:h-[575px] w-[100%] lg:bg-[url('/images/contact/child.png')] relative pt-[100px]">
         <div className="bg-[#FFF3E554] absolute top-0 right-0 left-0 bottom-0">
           <Container className="flex items-center h-[100%]">
-            <h1 className="text-[3rem] font-[700] text-[#F77F00] \">
+            <h1 className="text-[3rem] font-[700] text-[#F77F00] lg:text-[5rem]">
               Contact Us
             </h1>
           </Container>
