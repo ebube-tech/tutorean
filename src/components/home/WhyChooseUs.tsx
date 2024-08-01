@@ -16,20 +16,15 @@ function WhyChooseUs() {
             transformed by their use of Tutlee{" "}
           </p>
           <div className="flex justify-center flex-wrap  gap-[20px]">
-            {Array.from({ length: 3 }).map((_, index) => (
+            {Array.from({ length: 1 }).map((_, index) => (
               <div
                 key={index}
                 className="mt-[60px] leading-[24.2px] text-[1.35rem]"
               >
-                <div className=" border-[#FF6600] border-[18px] rounded-[20px] bg-[url('/images/lesson.png')] w-[350px] h-[204px] bg-cover">
-                  {/* <Image
-                    height={204}
-                    width={350}
-                    alt=""
-                    src="/images/lesson.png"
-                    className=""
-                  /> */}
-                </div>
+                <p className="text-[#FF6600] text-[3rem] font-[700] leading-[100%] text-center">
+                  COMING SOON !!!
+                </p>
+                {/* <div className=" border-[#FF6600] border-[18px] rounded-[20px] bg-[url('/images/lesson.png')] w-[350px] h-[204px] bg-cover"></div>
                 <div
                   className=" mt-[24px] max-w-[250px] 
                 mx-auto
@@ -44,7 +39,7 @@ function WhyChooseUs() {
                     Tutlee has successfully upgraded my skills as beginner
                     software developer to a pro level
                   </p>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>

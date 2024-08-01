@@ -70,7 +70,7 @@ export default function Terms_and_conditions() {
         </h1>
         <div className="my-2 text-md ">
           {TermsContent.map((term, i) => (
-            <div key={i}>
+            <div key={i} className="text-gray-700">
               <h3 className="font-bold text-lg">{term.title}</h3>
               <p>{term.content}</p>
               {i < TermsContent.length - 1 && <hr className="my-4" />}
