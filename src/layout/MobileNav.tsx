@@ -35,7 +35,7 @@ function MobileNav() {
           transition: "all 0.5s ease-in-out",
         }}
       >
-        <div className="flex justify-between px-[20px] py-[20px]">
+        <div className="flex justify-between items-center px-[20px] py-[20px]">
           <div>
             <Image src="/images/logo.png" alt={""} width={80} height={40} />
           </div>
