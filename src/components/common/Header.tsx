@@ -25,16 +25,16 @@ function Header() {
 
         <div className=" flex gap-[30px] items-center">
           {NavItems.map((navItem, index) => (
-            <div
+            <Link
               key={index}
+              href={navItem.link}
               className="bg-[#F77F00] px-[44px] h-[46px] flex items-center rounded-[18px]"
             >
               <NavItem
                 label={navItem.title}
-                href={navItem.link}
                 className="px-[12px] py-[11px]rounded-[18px]"
               />
-            </div>
+            </Link>
           ))}
         </div>
       </div>

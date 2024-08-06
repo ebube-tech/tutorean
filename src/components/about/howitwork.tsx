@@ -8,7 +8,7 @@ function FeaturedTutors() {
     <Container>
       <div className="pt-[85px] pb-[100px]">
         {/* Heading */}
-        <Heading text="How It Works?" />
+        <Heading className="lg:text-[2.5rem]" text="How It Works?" />
 
         <div className="pt-[85px]">
           {/* Section 1 */}

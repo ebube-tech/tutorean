@@ -2,20 +2,20 @@
 import React from "react";
 
 import Container from "@/ui/Container";
-import Heading from "@/ui/Heading";
+// import Heading from "@/ui/Heading";
 
 function WhyChooseUs() {
   return (
     <Container>
       <div className="pt-[108px] pb-[100px]">
         <div className="">
-          <Heading text=" What they say about Tutlee As Featured" />
+          {/* <Heading className="lg:text-[2.5rem]" text=" What they say about Tutlee As Featured" />
           <p className="leading-[24.2px] text-center text-[1.35rem] mt-[27px] max-w-[837px] mx-auto">
             Satisfied students and tutors on Tutlee share their experience on
             the platform. They share how their individual journeys have been
             transformed by their use of Tutlee{" "}
-          </p>
-          <div className="flex justify-center flex-wrap  gap-[20px]">
+          </p> */}
+          {/* <div className="flex justify-center flex-wrap  gap-[20px]">
             {Array.from({ length: 1 }).map((_, index) => (
               <div
                 key={index}
@@ -23,8 +23,8 @@ function WhyChooseUs() {
               >
                 <p className="text-[#FF6600] text-[3rem] font-[700] leading-[100%] text-center">
                   COMING SOON !!!
-                </p>
-                {/* <div className=" border-[#FF6600] border-[18px] rounded-[20px] bg-[url('/images/lesson.png')] w-[350px] h-[204px] bg-cover"></div>
+                </p> */}
+          {/* <div className=" border-[#FF6600] border-[18px] rounded-[20px] bg-[url('/images/lesson.png')] w-[350px] h-[204px] bg-cover"></div>
                 <div
                   className=" mt-[24px] max-w-[250px] 
                 mx-auto
@@ -40,9 +40,9 @@ function WhyChooseUs() {
                     software developer to a pro level
                   </p>
                 </div> */}
-              </div>
+          {/* </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </Container>
