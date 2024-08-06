@@ -4,7 +4,11 @@ import React from "react";
 import Container from "@/ui/Container";
 import Heading from "@/ui/Heading";
 
-const howItWorks = ["Explore Tutors", "Learn and Grow", "Book A Session"];
+const howItWorks = [
+  { text: "Explore Tutors", image: "/images/explore.png" },
+  { text: "Learn and Grow", image: "/images/learn.png" },
+  { text: "Book A Session", image: "/images/book.png" },
+];
 
 function HowItWorks() {
   return (
@@ -21,11 +25,11 @@ function HowItWorks() {
                 className="max-w-[420px] bg-[#fff] rounded-[40px] mt-[60px] leading-[24.2px] text-[1.35rem] mx-auto"
               >
                 <div className="bg-[#F77F00] -mt-[25px] relative z-[10] h-[95px] rounded-tr-[40px]  rounded-tl-[40px] items-center flex justify-center text-[#fff] border-[4px] border-[#000]">
-                  <p className="font-[700]">{item}</p>
+                  <p className="font-[700]">{item.text}</p>
                 </div>
                 <img
                   alt=""
-                  src="/images/explore.png"
+                  src={item.image}
                   className="border-r-[4px] border-l-[4px] border-b-[4px] border-[#000]  rounded-bl-[40px]  rounded-br-[40px] -mt-[40px]"
                 />
               </div>

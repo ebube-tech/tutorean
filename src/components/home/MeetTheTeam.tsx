@@ -47,6 +47,12 @@ const tutors = [
 
     facecard: "/images/team/paul.png",
   },
+  {
+    name: "Victory",
+    country: "Content Marketer",
+
+    facecard: "/images/team/victory.png",
+  },
 ];
 
 function MeetTheTeam() {
