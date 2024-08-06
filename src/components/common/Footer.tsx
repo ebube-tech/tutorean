@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaInstagram, FaLinkedin, FaTiktok, FaTwitter } from "react-icons/fa6";
 
 import Heading from "@/ui/footer/Heading";
 import Text from "@/ui/footer/Text";
@@ -50,18 +51,41 @@ function Footer() {
               </Link>
             </div>
             {/* <div className="flex flex-col gap-[12px]">
-              <Heading text="Careers" />
+              <Heading  text="Careers" />
               <Text text="Home" />
               <Text text="Home" />
               <Text text="Home" />
               <Text text="Home" />
               <Text text="Home" />
             </div> */}
-            <p className="max-w-[400px] mt-[30px]">
-              Join us as a tutor and guide students on the educational path,
-              share your expertise and availability, and make a meaningful
-              impact!
-            </p>
+
+            <div>
+              <p className="max-w-[400px] mt-[30px]">
+                Join us as a tutor and guide students on the educational path,
+                share your expertise and availability, and make a meaningful
+                impact!
+              </p>
+              <div className="flex items-center gap-4 mt-10">
+                <Link href="https://www.instagram.com/tutleehq/">
+                  <FaInstagram size={30} />
+                </Link>
+                <Link href="https://x.com/TutleeHQ ">
+                  <FaTwitter size={30} />
+                </Link>
+                <Link
+                  href="https://www.tiktok.com/@tutleehq
+"
+                >
+                  <FaTiktok size={30} />
+                </Link>
+                <Link
+                  href=": https://www.linkedin.com/company/104313058
+"
+                >
+                  <FaLinkedin size={30} />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
 

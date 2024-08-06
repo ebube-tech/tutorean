@@ -12,7 +12,7 @@ function HowItWorks() {
       <div className="pt-[145px]">
         <div className="flex justify-center"></div>
         <div className="">
-          <Heading text=" How It Works" />
+          <Heading className="lg:text-[2.5rem]" text=" How It Works" />
 
           <div className="flex flex-col lg:flex-row lg:justify-between gap-[31px] mt-[61px]  justify-center">
             {howItWorks.map((item, index) => (

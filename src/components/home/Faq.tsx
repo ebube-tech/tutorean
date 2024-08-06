@@ -31,7 +31,10 @@ const Faqs = [
 function Faq() {
   return (
     <Container className="pt-[66px]">
-      <Heading text=" Frequently Asked Questions (FAQ)" />
+      <Heading
+        className="lg:text-[2.5rem]"
+        text=" Frequently Asked Questions (FAQ)"
+      />
 
       <div className="mt-[66px] flex flex-col gap-[20px]">
         {Faqs.map((item, index) => (
