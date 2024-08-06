@@ -67,7 +67,7 @@ function TutorSearch() {
             {Courses.map((_, index) => (
               <div
                 key={index}
-                className="px-[20px] h-[52px]  rounded-[20px] flex items-center border-[1px] bg-[#FFF3E566] justify-center cursor-pointer"
+                className="px-[20px] h-[52px]  rounded-[20px] flex items-center border-[1px] border-[#000] bg-[#FFF3E566] justify-center cursor-pointer"
               >
                 <p className="font-[700] lg:text-[1.25rem] text-[#F77F00CC] text-[0.865rem]">
                   {_}
