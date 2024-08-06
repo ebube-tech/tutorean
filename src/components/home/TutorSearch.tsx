@@ -30,7 +30,10 @@ function TutorSearch() {
     <div className="pt-[96px]">
       <Container>
         <div className="w-[100%] rounded-[30px] pt-[46px] pb-[53px]">
-          <Heading text=" Search for a tutor perfect for you" />
+          <Heading
+            className="lg:text-[2.5rem]"
+            text=" Search for a tutor perfect for you"
+          />
 
           <div className="mt-[57px] flex rounded-[20px] border-[#F77F00] bg-[#fff] border-[1px] overflow-hidden max-w-[1073px] mx-[auto] justify-between">
             <input
@@ -64,7 +67,7 @@ function TutorSearch() {
             {Courses.map((_, index) => (
               <div
                 key={index}
-                className="px-[20px] h-[52px]  rounded-[20px] flex items-center border-[1px] bg-[#FFF3E566] justify-center"
+                className="px-[20px] h-[52px]  rounded-[20px] flex items-center border-[1px] bg-[#FFF3E566] justify-center cursor-pointer"
               >
                 <p className="font-[700] lg:text-[1.25rem] text-[#F77F00CC] text-[0.865rem]">
                   {_}

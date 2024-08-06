@@ -104,7 +104,7 @@ function FeaturedTutors() {
     <Container>
       <div className="pt-[85px]">
         <div className="">
-          <Heading text=" Featured Tutors" />
+          <Heading className="lg:text-[2.5rem]" text=" Featured Tutors" />
 
           <div className="flex  justify-center flex-wrap">
             {tutors.map((_, index) => (

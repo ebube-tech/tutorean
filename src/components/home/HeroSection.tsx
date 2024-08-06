@@ -50,9 +50,12 @@ function HeroSection() {
         </div>
       </div>
       <div className="mt-[100px]">
-        <Heading text=" Get Tutored by expert professionals and peers from across the world" />
+        <Heading
+          className="lg:text-[2.5rem]"
+          text=" Get Tutored by expert professionals and peers from across the world"
+        />
 
-        <div className="mt-[57px] bg-[#F77F00] px-[68px] rounded-[30px] w-[100%] flex flex-col lg:flex-row gap-[30px] py-[20px] lg:h-[121px] items-center justify-between">
+        <div className="mt-[57px] bg-[#F77F00] px-[68px] rounded-[30px] w-[100%] flex flex-col lg:flex-row gap-[30px] py-[20px] lg:h-[121px] lg:items-center justify-between">
           {Stats.map((stats, index) => (
             <p key={index} className="text-[#fff] lg:text-[1.25rem] font-[700]">
               {stats}
