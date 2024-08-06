@@ -30,7 +30,7 @@ const Faqs = [
 
 function Faq() {
   return (
-    <Container className="pt-[66px]">
+    <Container className="pt-[66px] md:mt-[100px]">
       <Heading
         className="lg:text-[2.5rem]"
         text=" Frequently Asked Questions (FAQ)"
