@@ -9,7 +9,7 @@ import { ToastContainer } from "react-toastify";
 import * as Yup from "yup";
 
 import Input from "@/components/Input";
-import Button from "@/ui/Button";
+import Button from "@/components/ui/Button";
 
 const emailRegex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
 

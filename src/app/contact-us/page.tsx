@@ -6,8 +6,8 @@ import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 import Input from "@/components/input/Input";
-import Button from "@/ui/Button";
-import Container from "@/ui/Container";
+import Button from "@/components/ui/Button";
+import Container from "@/components/ui/Container";
 
 const ContactOptions = [
   {

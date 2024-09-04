@@ -3,8 +3,8 @@ import Link from "next/link";
 import React from "react";
 import { FaInstagram, FaLinkedin, FaTiktok, FaTwitter } from "react-icons/fa6";
 
-import Heading from "@/ui/footer/Heading";
-import Text from "@/ui/footer/Text";
+import Heading from "@/components/ui/footer/Heading";
+import Text from "@/components/ui/footer/Text";
 
 function Footer() {
   return (
