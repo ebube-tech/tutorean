@@ -4,12 +4,33 @@
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 
+import { cn } from "@/utils/cn";
+
+const NavItems = [
+  {
+    title: "Home",
+    link: "/",
+  },
+  { title: "About Us", link: "/about-us" },
+  { title: "Contact Us", link: "/contact-us" },
+  {
+    title: "Bootcamps",
+    link: "/bootcamps",
+  },
+
+  { title: "Log In", link: "#" },
+  { title: "Sign Up", link: "#" },
+];
+
 function MobileNav() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  const pathname = usePathname();
 
   const handleClose = () => {
     setShowMobileMenu(!showMobileMenu);
@@ -45,26 +66,18 @@ function MobileNav() {
         </div>
 
         <div className="flex flex-col gap-[30px] items-center mt-[32px] ">
-          <Link href="/" onClick={handleClose}>
-            <p className="font-[500] text-[14px]">Home</p>
-          </Link>
-          <Link href={"/about-us"} onClick={handleClose}>
-            <p className="font-[500] text-[14px]">About Us</p>
-          </Link>
-
-          <Link href={"/contact-us"} onClick={handleClose}>
-            <p className="font-[500] text-[14px]">Contact Us</p>
-          </Link>
-          <Link href={"#"}>
-            <p className="font-[500] text-[14px] border-[2px] py-[10px] px-[20px] rounded-[5px]">
-              Login
-            </p>
-          </Link>
-          <Link href={"#"}>
-            <p className="font-[500] text-[14px] border-[2px] py-[10px] px-[20px] rounded-[5px]">
-              Sign Up
-            </p>
-          </Link>
+          {NavItems.map((item) => (
+            <Link href={item.link} key={item.title} onClick={handleClose}>
+              <p
+                className={cn(
+                  "font-[500] text-[14px]",
+                  pathname == item.link && "text-[#F77F00]"
+                )}
+              >
+                {item.title}
+              </p>
+            </Link>
+          ))}
         </div>
       </div>
     </div>

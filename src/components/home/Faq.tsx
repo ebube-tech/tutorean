@@ -1,7 +1,7 @@
 import React from "react";
 
-import Container from "@/ui/Container";
-import Heading from "@/ui/Heading";
+import Container from "@/components/ui/Container";
+import Heading from "@/components/ui/Heading";
 
 import FaqTab from "./FaqTab";
 
@@ -38,7 +38,12 @@ function Faq() {
 
       <div className="mt-[66px] flex flex-col gap-[20px]">
         {Faqs.map((item, index) => (
-          <FaqTab title={item.title} content={item.content} key={index} />
+          <FaqTab
+            title={item.title}
+            content={item.content}
+            key={index}
+            className="max-w-[600px]"
+          />
         ))}
       </div>
     </Container>
