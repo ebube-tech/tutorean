@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 
-import Container from "@/ui/Container";
-import Heading from "@/ui/Heading";
+import Container from "@/components/ui/Container";
+import Heading from "@/components/ui/Heading";
 
 const Courses = [
   "Python",

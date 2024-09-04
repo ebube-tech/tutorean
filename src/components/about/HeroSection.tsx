@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-import Container from "@/ui/Container";
+import Container from "@/components/ui/Container";
 
 function HeroSection() {
   return (

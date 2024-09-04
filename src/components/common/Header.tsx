@@ -2,11 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+import NavItem from "@/components/ui/NavItem";
 import MobileNav from "@/layout/MobileNav";
-import NavItem from "@/ui/NavItem";
 const NavItems = [
+  {
+    title: "Home",
+    link: "/",
+  },
   { title: "About Us", link: "/about-us" },
   { title: "Contact Us", link: "/contact-us" },
+  {
+    title: "Bootcamps",
+    link: "/bootcamps",
+  },
+
   { title: "Log In", link: "#" },
   { title: "Sign Up", link: "#" },
 ];
@@ -28,9 +37,10 @@ function Header() {
             <Link
               key={index}
               href={navItem.link}
-              className="bg-[#F77F00] px-[44px] h-[46px] flex items-center rounded-[18px]"
+              className="h-[46px] flex items-center rounded-[18px]"
             >
               <NavItem
+                href={navItem.link}
                 label={navItem.title}
                 className="px-[12px] py-[11px]rounded-[18px]"
               />
