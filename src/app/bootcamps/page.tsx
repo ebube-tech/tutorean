@@ -3,6 +3,7 @@
 import React from "react";
 
 import UpcomingEvent from "@/components/bootcamp/UpcomingEvent";
+import UpcomingScholarships from "@/components/bootcamp/UpcomingScholarships";
 import Button from "@/components/ui/Button";
 // import Container from "@/components/ui/Container";
 
@@ -64,30 +65,31 @@ const ScholarshipData: {
 }[] = [
   {
     title: "Full Scholarship for Africans",
-    img: "",
+    img: "/scholarships/image.png",
     link: "/bootcamps/web-development",
     description:
-      "Covers 100% of tuition for Africans living in Africa. Application fee required.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
   },
   {
     title: "50% Off Scholarship",
-    img: "",
+    img: "/scholarships/image-2.png",
     link: "/bootcamps/web-development",
-    description: "Open to everyone worldwide. Enjoy a 50% discount on tuition.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
   },
   {
     title: "Youth Scholarship (Under 18)",
-    img: "",
+    img: "/scholarships/image-3.png",
     link: "/bootcamps/web-development",
     description:
-      "Completely free for students under 18, including the application fee.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
   },
   {
     title: "Partial Scholarship for Disabled Individuals",
-    img: "",
+    img: "/scholarships/image-1.png",
     link: "/bootcamps/web-development",
     description:
-      "Tailored for individuals with disabilities. Partial tuition coverage.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
   },
 ];
 
@@ -128,7 +130,10 @@ function BootCamps() {
         <UpcomingEvent title="Explore Categories" data={CategoriesData} />
       </div>
       <div className="bg-[#fff3e5] py-[120px]">
-        <UpcomingEvent title="Scholarship Available" data={ScholarshipData} />
+        <UpcomingScholarships
+          title="Scholarship Available"
+          data={ScholarshipData}
+        />
       </div>
     </div>
   );
