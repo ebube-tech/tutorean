@@ -2,8 +2,10 @@
 
 import React from "react";
 
+import BootcampFaqTab from "@/components/bootcamp/BootcampFaqTab";
 import InfoBox from "@/components/bootcamp/InfoBox";
-import FaqTab from "@/components/home/FaqTab";
+// import FaqTab from "@/components/home/FaqTab";
+import Button from "@/components/ui/Button";
 // import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 
@@ -32,25 +34,39 @@ const Faqs = [
 
 function BootCampInfo() {
   return (
-    <div>
-      <div className="bg-[url('/bootcamp/bg.png')] bg-cover h-[100vh] w-[100%] bg-no-repeat max-h-[564px] flex flex-col justify-end border-b-[8px] border-[#F77F00] pb-[50px]">
-        <Container className="flex w-[100%]">
-          <div className="text-[#fff] px-[50px] py-[34px] text-[2rem] font-[800] bg-[#000000B8] max-w-[736px] rounded-[10px]">
+    <div className="bg-[#fff3e5] pb-[100px]">
+      <div className="lg:bg-[url('/bootcamp/learn.png')] bg-contain h-[100vh] w-[100%] bg-no-repeat max-h-[564px] flex flex-col justify-center pb-[50px] bg-right-top">
+        <Container className="flex flex-col w-[100%] items-start gap-[50px]">
+          <div className="lg:text-[#5C4033]  text-[2rem] font-[800] max-w-[736px] rounded-[10px] text-[#5C4033] text-">
             <p>Software Engineering Diploma Course(9months).</p>
           </div>
+
+          <div
+            className="border-[1px] p-[40px] rounded-[10px] bg-[#fff3e5]"
+            style={{
+              boxShadow: "0px 4px 4px 0px #00000040",
+            }}
+          >
+            <p className="font-[900] text-[1.2rem]">
+              Registration Deadline:{" "}
+              <span className="text-[#FF0000]">October 14th 2024</span>{" "}
+            </p>
+          </div>
+
+          <Button className="bg-[#F77F00] py-[16px] px-[30px] max-auto rounded-lg">
+            <p className="text-[#fff] text-[1.2rem] font-[600]">Apply Now</p>
+          </Button>
         </Container>
       </div>
-      <div className="bg-[#fff3e5] py-[124px]">
+      <div className="lg:py-[124px]">
         <Container>
           <div className="flex lg:gap-[50px] flex-col lg:flex-row gap-[24px]">
-            <InfoBox text="Registration Deadline: October 14th 2024" />
-            <InfoBox text="Registration Deadline: October 14th 2024" />
+            <InfoBox text="Cost of Course: €500 " />
+            <InfoBox text="Length of Study: 9 months" />
+            <InfoBox text="Certificate Awarded: Diploma, Software Engineering" />
           </div>
-          <div className="flex lg:gap-[50px] flex-col lg:flex-row lg:mt-[50px] gap-[24px] mt-[24px]">
-            <InfoBox text="Registration Deadline: October 14th 2024" />
-            <InfoBox text="Registration Deadline: October 14th 2024" />
-          </div>
-          <p className="lg:text-[1.875rem] font-[400] mt-[86px] text-[1.2rem]">
+
+          <p className="lg:text-[1.25rem] font-[400] mt-[86px] text-[1rem]">
             The aim of this study program is to train specialists who can
             effectively apply software system concepts in the design, creation,
             and secure management of software systems. Our graduates are
@@ -62,14 +78,9 @@ function BootCampInfo() {
         </Container>
       </div>
       <Container>
-        <div className="mt-[66px] flex flex-col gap-[20px]">
+        <div className="lg:mt-[66px] flex flex-col lg:flex-row gap-[20px] flex-wrap items-start">
           {Faqs.map((item, index) => (
-            <FaqTab
-              title={item.title}
-              content={item.content}
-              key={index}
-              className="bg-[#332D26]"
-            />
+            <BootcampFaqTab item={item} key={index} />
           ))}
         </div>
       </Container>

@@ -15,7 +15,9 @@ const NavItems = [
     title: "Bootcamps",
     link: "/bootcamps",
   },
+];
 
+const AuthLinks = [
   { title: "Log In", link: "#" },
   { title: "Sign Up", link: "#" },
 ];
@@ -28,12 +30,29 @@ function Header() {
       </div>
 
       <div className="hidden lg:flex items-center justify-between h-[110px] mx-auto max-w-[1280px] px-[24px] lg:px-50px">
-        <Link href="/">
-          <Image src="/images/logo.png" alt={""} width={155} height={40} />
-        </Link>
+        <div className="flex">
+          <Link href="/">
+            <Image src="/images/logo.png" alt={""} width={155} height={40} />
+          </Link>
 
+          <div className=" flex gap-[30px] items-center">
+            {NavItems.map((navItem, index) => (
+              <Link
+                key={index}
+                href={navItem.link}
+                className="h-[46px] flex items-center rounded-[18px]"
+              >
+                <NavItem
+                  href={navItem.link}
+                  label={navItem.title}
+                  className="px-[12px] py-[11px]rounded-[18px]"
+                />
+              </Link>
+            ))}
+          </div>
+        </div>
         <div className=" flex gap-[30px] items-center">
-          {NavItems.map((navItem, index) => (
+          {AuthLinks.map((navItem, index) => (
             <Link
               key={index}
               href={navItem.link}

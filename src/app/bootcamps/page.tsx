@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import React from "react";
 
 import UpcomingEvent from "@/components/bootcamp/UpcomingEvent";
+import UpcomingScholarships from "@/components/bootcamp/UpcomingScholarships";
 import Button from "@/components/ui/Button";
-import Container from "@/components/ui/Container";
+// import Container from "@/components/ui/Container";
 
 const CategoriesData: {
   title: string;
@@ -63,47 +65,55 @@ const ScholarshipData: {
 }[] = [
   {
     title: "Full Scholarship for Africans",
-    img: "",
+    img: "/scholarships/image.png",
     link: "/bootcamps/web-development",
     description:
-      "Covers 100% of tuition for Africans living in Africa. Application fee required.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
   },
   {
     title: "50% Off Scholarship",
-    img: "",
+    img: "/scholarships/image-2.png",
     link: "/bootcamps/web-development",
-    description: "Open to everyone worldwide. Enjoy a 50% discount on tuition.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
   },
   {
     title: "Youth Scholarship (Under 18)",
-    img: "",
+    img: "/scholarships/image-3.png",
     link: "/bootcamps/web-development",
     description:
-      "Completely free for students under 18, including the application fee.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
   },
   {
     title: "Partial Scholarship for Disabled Individuals",
-    img: "",
+    img: "/scholarships/image-1.png",
     link: "/bootcamps/web-development",
     description:
-      "Tailored for individuals with disabilities. Partial tuition coverage.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
   },
 ];
 
 function BootCamps() {
   return (
-    <div>
-      <div className="bg-[url('/bootcamp/bg.png')] bg-cover h-[100vh] w-[100%] bg-no-repeat max-h-[564px] flex flex-col justify-end border-b-[8px] border-[#F77F00]">
-        <div className="lg:bg-[url('/bootcamp/chat.png')]  bg-[#000000B8] lg:bg-transparent lg:w-[811px] h-[400px] bg-no-repeat text-[#fff] lg:px-[50px] px-[24px] pt-[34px] text-[2rem] font-[800]">
-          <p>Applications now open to gain a</p>
-          <p>diploma in any of our available bootcamps.</p>
+    <div className="bg-[#fff3e5]">
+      <div className=" w-[100%] flex justify-between items-center gap-2 flex-col lg:flex-row">
+        <div className="lg:w-[811px] py-[100px] lg:py-[60px] rounded-tr-[10px] rounded-br-[10px] bg-[#5C4033] text-[#fff] lg:px-[50px] px-[24px] text-[2rem] flex flex-col gap-2 items-start">
+          <p className="font-[800]">Applications now open to gain a</p>
+          <p className="font-[600] text-[1.2rem]">
+            Unlock your potential and accelerate your career with our
+            specialized bootcamps and gain a diploma!
+          </p>
 
-          <Button className="bg-[#F77F00] rounded-[15px] px-[16px] py-[5px] mt-[45px]">
-            <p className="text-[1.5rem]">Apply Now</p>
+          <Button className="bg-[#F77F00] rounded-[10px] px-[16px] py-[5px] mt-[45px]">
+            <p className="text-[1rem] font-[800]">Apply Now</p>
           </Button>
         </div>
-      </div>
 
+        <div className="hidden lg:block">
+          <img src="/bootcamp/guy-with-galsses.png" alt="" />
+        </div>
+      </div>
+      {/* 
       <Container className="my-[70px]">
         <p className="lg:text-[1.875rem]  mt-[86px] text-[1.2rem] font-[500]">
           Unlock your potential and accelerate your career with our specialized
@@ -114,13 +124,16 @@ function BootCamps() {
           credentials that employers value. Apply now and take the first step
           towards your future success!
         </p>
-      </Container>
+      </Container> */}
 
-      <div className="bg-[#fff3e5] py-[120px]">
+      <div className="py-[120px]">
         <UpcomingEvent title="Explore Categories" data={CategoriesData} />
       </div>
       <div className="bg-[#fff3e5] py-[120px]">
-        <UpcomingEvent title="Scholarship Available" data={ScholarshipData} />
+        <UpcomingScholarships
+          title="Scholarship Available"
+          data={ScholarshipData}
+        />
       </div>
     </div>
   );
