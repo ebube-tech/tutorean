@@ -66,7 +66,7 @@ function page() {
               onSubmit={() => {}}
             >
               {({ errors, touched }) => (
-                <Form className="flex flex-col gap-[24px]">
+                <Form className="flex flex-col gap-[24px]" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                   <div className="flex gap-[24px]">
                     <Input
                       errors={errors.firstName}

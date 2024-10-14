@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from "react";
 
 import Container from "@/components/ui/Container";
@@ -15,7 +16,7 @@ function FeaturedTutors() {
           <div className="flex flex-col lg:flex-row items-center lg:gap-[40px]">
             {/* Image on the left */}
             <div className="mt-[36px] lg:mt-0 lg:w-[35%]">
-              <img
+              <Image
                 src="/images/phone.png"
                 alt="Hero Image"
                 className="object-cover rounded-[20px] w-full h-auto"
@@ -41,7 +42,7 @@ function FeaturedTutors() {
           <div className="flex flex-col lg:flex-row-reverse items-center lg:gap-[40px] mt-[25px]">
             {/* Image on the right */}
             <div className="mt-[36px] lg:mt-0 lg:w-[35%]">
-              <img
+              <Image
                 src="/images/phone2.png"
                 alt="Hero Image"
                 className="object-cover rounded-[20px] w-full h-auto"
@@ -67,7 +68,7 @@ function FeaturedTutors() {
           <div className="flex flex-col lg:flex-row items-center lg:gap-[40px] mt-[25px]">
             {/* Image on the left */}
             <div className="mt-[36px] lg:mt-0 lg:w-[35%]">
-              <img
+              <Image
                 src="/images/phone3.png"
                 alt="Hero Image"
                 className="object-cover rounded-[20px] w-full h-auto"

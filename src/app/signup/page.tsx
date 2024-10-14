@@ -48,7 +48,7 @@ function LoginPage() {
             onSubmit={async () => {}}
           >
             {({ errors, touched }) => (
-              <Form className="flex flex-col gap-[16px]">
+              <Form className="flex flex-col gap-[16px]" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
                 <Input
                   type="text"
                   placeholder="First name"
